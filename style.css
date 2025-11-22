@@ -1,0 +1,24 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #c11919;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.container {
+  width: 400px;
+  background: rgb(35, 43, 182);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(199, 32, 32, 0.1);
+}
+#options button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 6px;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+}
+.hidden { display: none; }
